@@ -294,6 +294,7 @@ p {
 .members__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, 25rem));
+  justify-content: center;
   gap: 2rem;
   max-width: 80rem;
   margin: 0 auto;
