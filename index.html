@@ -309,10 +309,10 @@
                                                 <span class="program__talk-speaker">Olivier Guéant</span>
                                                 <span class="program__talk-affil">Paris Cité Univ., LPSM</span>
                                             </div>
-                                            <a href="#" class="program__talk-slides" title="Download slides">
+                                            <!-- <a href="#" class="program__talk-slides" title="Download slides">
                                                 <svg aria-hidden="true"><use href="#slides-icon"></use></svg>
                                                 Slides
-                                            </a>
+                                            </a> -->
                                         </div>
                                         <p class="program__talk-title">Introduction to AMMs: a Comparative Perspective</p>
                                         <p class="program__talk-abstract">An introduction to automated market makers and how they compare to other trading mechanisms such as limit-order books and request-for-quote systems.</p>
@@ -325,10 +325,10 @@
                                                 <span class="program__talk-speaker">Emmanuel Gobet</span>
                                                 <span class="program__talk-affil">Sorbonne Univ., LPSM</span>
                                             </div>
-                                            <a href="#" class="program__talk-slides" title="Download slides">
+                                            <!-- <a href="#" class="program__talk-slides" title="Download slides">
                                                 <svg aria-hidden="true"><use href="#slides-icon"></use></svg>
                                                 Slides
-                                            </a>
+                                            </a> -->
                                         </div>
                                         <p class="program__talk-title">Quantitative Modelling of Uniswap v2 and v3</p>
                                         <p class="program__talk-abstract">Starting from the open-source code, this talk describes Uniswap v2 and v3 in detail — including concentrated liquidity, fee collection, and their behaviour as gamma-negative option positions — and derives analytical formulas for risk and value assessment.</p>
@@ -384,19 +384,92 @@
                     </div><!-- /.news-card__program -->
                 </article>
 
-                <div style="display: flex; justify-content: center; grid-column: 1 / -1; width: 100%;">
-                    <article class="news-card" style="max-width: 22rem; width: 100%;">
+                <!-- Expandable card — DeFi Workshop May 2026 -->
+                <article class="news-card news-card--expandable" data-expanded="false" style="grid-column: 1 / -1;">
+                    <div class="news-card__summary">
                         <p class="news-card__date">May 22, 2026</p>
                         <h3 class="news-card__title">DeFi Workshop</h3>
                         <p class="news-card__description">
-                            Workshop organised by the ANR BLOCKFI at Institut Henri-Pointcaré (Paris).
+                            Workshop organised by the ANR BLOCKFI at Institut Henri-Poincaré (Paris).
                         </p>
-                        <a href="#" class="news-card__slides" title="Download slides" target="_blank" rel="noopener noreferrer">
-                            <svg aria-hidden="true"><use href="#slides-icon"></use></svg>
-                            Slides
-                        </a>
-                    </article>
-                </div>
+                    </div>
+                    <button class="news-card__toggle" aria-expanded="false" aria-controls="program-defi-workshop-may2026">
+                        <span class="news-card__toggle-label">View programme</span>
+                        <svg class="news-card__toggle-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                            <polyline points="6 9 12 15 18 9"/>
+                        </svg>
+                    </button>
+
+                    <div class="news-card__program" id="program-defi-workshop-may2026" aria-hidden="true">
+                        <div class="program">
+
+                            <div class="program__session">
+                                <div class="program__session-header">
+                                    <span class="program__session-date">May 22, 2026</span>
+                                    <span class="program__session-theme">Finance &amp; Blockchain Morning — Institut Henri-Poincaré, Paris</span>
+                                </div>
+                                <div class="program__talks">
+
+                                    <div class="program__talk">
+                                        <div class="program__talk-meta">
+                                            <span class="program__talk-time">9:00 – 9:35</span>
+                                            <div class="program__talk-info">
+                                                <span class="program__talk-speaker">Olivier Guéant</span>
+                                            </div>
+                                        </div>
+                                        <p class="program__talk-title">Perpetual Futures and Funding Rates: A Stackelberg Perspective</p>
+                                    </div>
+
+                                    <div class="program__talk">
+                                        <div class="program__talk-meta">
+                                            <span class="program__talk-time">9:35 – 10:10</span>
+                                            <div class="program__talk-info">
+                                                <span class="program__talk-speaker">Mohamed Bilel Tounsi</span>
+                                            </div>
+                                        </div>
+                                        <p class="program__talk-title">Mining Pool Networks and Decentralization of Proof-of-Work Blockchains</p>
+                                    </div>
+
+                                    <div class="program__talk">
+                                        <div class="program__talk-meta">
+                                            <span class="program__talk-time">10:10 – 10:45</span>
+                                            <div class="program__talk-info">
+                                                <span class="program__talk-speaker">Julien Prat</span>
+                                            </div>
+                                        </div>
+                                        <p class="program__talk-title">Reputational Concerns in Liquid Staking Protocols</p>
+                                    </div>
+
+                                    <div class="program__talk">
+                                        <div class="program__talk-meta">
+                                            <span class="program__talk-time">11:00 – 11:35</span>
+                                            <div class="program__talk-info">
+                                                <span class="program__talk-speaker">Christoph Mussenbrock</span>
+                                            </div>
+                                            <a href="pdf/defi-workshop-2026-05-22/2026-05-22 Etherisc Sorbonne IHP.pdf" class="program__talk-slides" title="Download slides" target="_blank" rel="noopener noreferrer">
+                                                <svg aria-hidden="true"><use href="#slides-icon"></use></svg>
+                                                Slides
+                                            </a>
+                                        </div>
+                                        <p class="program__talk-title">Implementing Parametric Climate Insurance in Sub-Saharan Africa Using Blockchain: Challenges, Opportunities and Solutions</p>
+                                    </div>
+
+                                    <div class="program__talk">
+                                        <div class="program__talk-meta">
+                                            <span class="program__talk-time">11:35 – 12:10</span>
+                                            <div class="program__talk-info">
+                                                <span class="program__talk-speaker">Stéphane Loisel</span>
+                                            </div>
+                                        </div>
+                                        <p class="program__talk-title">Insurance on Ethereum</p>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div><!-- /.news-card__program -->
+                </article>
 
             </div>
         </div>
